@@ -34,32 +34,23 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 
 ## Credits
-Date day.js where it ca finds more formatings
+#### Date day.js where it ca finds more formatings
 https://day.js.org/docs/en/display/format
-the image for save button whit more variants it can be found in the link below.
+
+#### The image for save button whit more variants it can be found in the link below.
 https://www.w3schools.com/icons/tryit.asp?icon=fas_fa-save&unicon=f0c7
-with the following class "btn" options the button will be highlighted
+
+#### With the following class "btn" options the button will be highlighted
 https://getbootstrap.com/docs/5.3/components/buttons/#base-class
+
+#### /This is a good example to remove and add classes using if statements
+https://stackoverflow.com/questions/20882528/jquery-change-table-cell-color-if-clicked-and-clicked-again
 
 
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
+MIT License
 
 ## How to Contribute
 

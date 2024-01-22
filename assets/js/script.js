@@ -18,5 +18,28 @@ $(document).ready(function() {
         //save the text in localStorage 
         localStorage.setItem(time, text);
     });
+});
 
+var timeNow;
+var blockTime
+    // get the time and add past, present and future class to the block for collor
+function updateTimeClasses(block, timeNow) {
+    blockTime = parseInt(block.attr("id").split("hour")[1]);
+    if (blockTime < timeNow) {
+        block.removeClass("future present").addClass("past");
+    } else if (blockTime === timeNow) {
+        block.removeClass("future past").addClass("present");
+    } else {
+        block.removeClass("present past").addClass("future");
+    }
+
+}
+//updateTimeClasses();
+
+$(document).ready(() => {
+    function timeTracker() {
+        timeNow = moment().hour();
+        $(".time-block").each((i, block) => updateTimeClasses($(block), timeNow));
+    }
+    timeTracker();
 });
