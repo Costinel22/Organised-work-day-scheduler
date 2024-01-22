@@ -34,12 +34,14 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 
 ## Credits
+Date day.js where it ca finds more formatings
+https://day.js.org/docs/en/display/format
+the image for save button whit more variants it can be found in the link below.
+https://www.w3schools.com/icons/tryit.asp?icon=fas_fa-save&unicon=f0c7
+with the following class "btn" options the button will be highlighted
+https://getbootstrap.com/docs/5.3/components/buttons/#base-class
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
