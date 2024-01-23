@@ -41,15 +41,9 @@ $(document).ready(() => {
         timeNow = moment().hour();
         $(".time-block").each((i, block) => updateTimeClasses($(block), timeNow));
     }
-    // whenever you refresh the the screen, the time filled in will be updated
     timeTracker();
-    $("#hour10 .fillHere").val(localStorage.getItem("hour10"));
-    $("#hour11 .fillHere").val(localStorage.getItem("hour11"));
-    $("#hour12 .fillHere").val(localStorage.getItem("hour12"));
-    $("#hour13 .fillHere").val(localStorage.getItem("hour13"));
-    $("#hour14 .fillHere").val(localStorage.getItem("hour14"));
-    $("#hour15 .fillHere").val(localStorage.getItem("hour15"));
-    $("#hour16 .fillHere").val(localStorage.getItem("hour16"));
-    $("#hour17 .fillHere").val(localStorage.getItem("hour17"));
-
+    // crete a lop whenever you refresh the the screen, the time filled in will be updated
+    for (let hour = 10; hour <= 17; hour++) {
+        $("#hour" + hour + " .fillHere").val(localStorage.getItem("hour" + hour));
+    }
 });
