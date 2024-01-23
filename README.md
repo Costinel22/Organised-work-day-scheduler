@@ -2,37 +2,31 @@
 How to make a work day more productive.
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- This project it help me to understand how  jquery works.
+- This small project will help me and others to make a day more successful, adding a scheduling solution for the time working day.
+- I learned how how to use vanilla JavaScript combined with jQuery.
 
 ## Installation
 
 https://costinel22.github.io/Organised-work-day-scheduler/
 
+#### Open source project,
+ - open Instructions,
+ -  go to Application, 
+ - open Local storage, 
+ - into the scheduler project a few informations and save them,
+ - look at the local storage and see what's there sawed.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+##### Format date (curent date)
+ ![alt text](./assets/images/set-date.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+ #### HTML timetable format
+ ![alt text](./assets/images/div-table.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
+##### Debugging and testing functions
+ ![alt text](./assets/images/github-testing.png)
 ## Credits
 #### Date day.js where it ca finds more formatings
 https://day.js.org/docs/en/display/format
@@ -43,7 +37,7 @@ https://www.w3schools.com/icons/tryit.asp?icon=fas_fa-save&unicon=f0c7
 #### With the following class "btn" options the button will be highlighted
 https://getbootstrap.com/docs/5.3/components/buttons/#base-class
 
-#### /This is a good example to remove and add classes using if statements
+#### This is a good example to remove and add classes using if statements
 https://stackoverflow.com/questions/20882528/jquery-change-table-cell-color-if-clicked-and-clicked-again
 
 
@@ -52,10 +46,7 @@ https://stackoverflow.com/questions/20882528/jquery-change-table-cell-color-if-c
 
 MIT License
 
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
 ## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+#### Tests on local host, from VSCode on crome.
+ ![alt text](./assets/images/testing.png)
